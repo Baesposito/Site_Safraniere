@@ -1,0 +1,256 @@
+/******* Body *********/
+
+body{
+	
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+/*
+p{
+	text-align: center;
+
+}
+*/
+
+/******* Titres *******/
+h1 {
+	padding: 8%;
+	font-family: 'Alex Brush';
+	font-size: 400%;
+	float: left;
+  margin-top: 2%;
+}
+
+.inner .image h3{
+	font-size: 175%;
+} 
+
+@media (max-width:1200px) {
+  h1 {
+		margin-top:0;
+    float:none;
+    padding: 20px;
+	}
+}
+
+/*******	Bordure	*******/
+.bordure {
+	margin: 5vh 0 5vh 0;
+	border-bottom: 1px solid #333;
+}
+
+/*******   Texte *********/
+
+.infoImp{
+	
+	font-weight:bold;
+	color:black;
+
+}
+
+.textpourinfo p{
+ text-align: center;
+
+}
+
+article p {
+
+	
+	font-size: 100%;
+	
+
+}
+.textpourinfo{
+	display: inline-block;
+}
+
+.text{
+	width:100%;
+	float:left;
+	word-wrap: break-word;
+}
+
+.bas p{
+
+	font-size: 200%;	
+
+}
+/*******    Tableau *******/
+
+
+table{
+	font-family: Arial, Helvetica, sans-serif;
+	width:100%;
+	background-color:#333;
+	text-align: center;
+	border-spacing: 10px 0em;
+}
+table tbody tr td table{
+	width:100%;
+	margin:5px;
+	background-color: white;
+	margin-left: auto;
+    margin-right: auto;
+	/*border-color: 50px solid yellow;*/
+}
+
+.pt{
+	width:100%;
+}
+
+.lig {
+    border: 5px solid #fff;
+    
+    width: auto;
+    padding: 5px;
+    }
+
+table tbody tr td table tbody tr td{
+	border: 1px solid black;
+	
+
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/*******	Flex	*******/
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex article {
+	width: 100%;
+  margin-bottom: 5vh;
+}
+
+@media (min-width:620px) and (max-width:1200px) {
+  .flex article {
+    width: 45%;
+    margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 620px) {
+	.flex article {
+		width: 100%;
+		margin-bottom: 3em;
+	}
+}
+
+/*******	Inner	*******/
+.inner {
+	max-width: 80%;
+	margin: auto;
+	padding: 6vh 0;
+}
+
+.inner p {
+  
+}
+
+.inner header h2,
+.inner header h3  {
+  
+	text-align: center;
+	margin: 5vh;
+}
+
+.inner article h3 {
+	color:#333
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:200%;
+	text-align: center;
+  margin: 3vh;
+  
+  
+}
+
+.inner header p {
+	text-align: left;
+}
+
+.inner header h2 {
+	font-size: 2.75em;
+	margin: 0 0 .5em 0;
+}
+.inner header h3 {
+	font-size: 175%;
+}
+
+@media (min-width:620px) and (max-width:1200px) {
+  .inner {
+		max-width: 90%;
+	}
+}
+
+@media (max-width:620px) {
+	.inner {
+		max-width: 85%;
+	}
+}
+
+/********* Bouton *********/
+
+a:hover {
+  background-color:  #ba6fca  ;
+  color: black;
+}
+.deuxieme3 li a:hover, .deuxieme4 li a:hover{
+	background-color:  #ba6fca  ;
+}
+
+
+
+/*******	Image	*******/
+.image {
+	float: left;
+  width: 50%;
+  padding: 0 3vh 0 0;
+}
+
+
+
+@media (min-width:620px) and (max-width:740px) {
+  .image img {
+  	width: 90%;
+    margin: auto 2vh;
+  }
+}
+
+@media (max-width:620px) {
+  .image {
+    float:none;
+    width: 100%;
+  }
+
+  
+}
+
+
+
+/******* Footer *******/
+
+
+footer h4{
+	color:#FFF;
+	font-size: 50px;
+}
+
+footer p {
+	width: 100%;
+  color: #FFF;
+  font-size: 25em;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+footer h1 {
+  text-align:center;
+  width:100%;
+  padding:0;
+}
