@@ -7,8 +7,4 @@ Mon but est de suivre les besoins et envies de l'agriculteur.
 
 Vous trouverez le code source du site.
 
-L'adresses du site : lasafranieredefontorbe.com
-
-Il n'est pas encore fini ! 
-
-N'hésitez pas à venir me poser des questions à l'adresse suivante : bap.espo@gmail.com
+Il n'est pas encore fini mais vous pouvez le visiter en cliquant sur le fichier index.html .
