@@ -142,6 +142,62 @@ h3{
 
 }
 
+/******  Bulle   ***********/
+
+
+a.info1{
+    height: auto;
+	width:auto;
+	border: none;
+	color: blue;
+	position: relative;
+	background-color: transparent;
+	display: inline-block;
+	
+	
+}
+
+.info1:hover{
+	background: none; /* Correction d'un bug d'Internet Explorer. */
+       z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+    text-decoration: underline;
+    
+       /* cursor: help;  On change le curseur par défaut par un curseur d'aide. */
+    
+}	
+.infoCache1{
+	
+	display: none;
+	
+}
+
+.info1:hover .infoCache1{
+	display: block; /* On affiche l'infobulle. */
+       position: absolute;
+      	text-align: left;
+         /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+        
+         width: 1600%;
+        max-width: 50em;
+		font-size: 90%;
+		white-space: normal;
+       
+    
+
+      left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Yep! */
+      
+       background: white;
+      
+       color: black;      
+       border: 1px solid black;
+       border-left: 4px solid blue;
+       
+}
+
+
+
 article{
 
 	display: block;

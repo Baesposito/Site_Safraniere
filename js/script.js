@@ -137,9 +137,11 @@ $(".p1b").click(function(){
   $(".paragraphe2").css("display", "block");
   } );
 
-
-
-
-
+$(".bretour").click(function(){
+  $(".paragraphe4").css("display", "none");
+  $(".paragraphe3").css("display", "none");
+  $(".paragraphe1").css("display", "none");
+  $(".paragraphe2").css("display", "block");
+  } );
 
 

@@ -120,7 +120,7 @@ h4, h5, h6 {
 }
 
 .banner {
-	background-image: url("../imgs/banniere_ame.JPG");
+	background-image: url("../imgs/banniere.JPG");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -453,6 +453,9 @@ background: radial-gradient(#eeb248, 10%, white);
     font-weight: 400;
 }
 
+#button{
+    font-weight:400;
+}
 
 article .button {
 	transition: 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -514,15 +517,6 @@ article .button:hover {
     
 }
 
-#grand_texte_onglet{
-    font-size: 80%;
-    width: 81%;
-}
-
-.deuxieme3 li a:hover, .deuxieme5 li a:hover, .deuxieme4 li a:hover {
-	background-color: #617ab8  ;
-	
-}
 
 @media (min-width:530px) and (max-width:740px) {
   .deuxieme3 li a{
@@ -550,14 +544,21 @@ article .button:hover {
 }
 
 .deuxieme3, .deuxieme4, .deuxieme5{
+    width: auto;
 	position:absolute;
 	display: none;
 	z-index:1000;
 	width:auto;
 
 }
+
+.deuxieme3 li a, .deuxieme4 li a, .deuxieme5 li a{
+    width: 100%;
+}
+
 .deuxieme3 li a:hover, .deuxieme4 li a:hover, .deuxieme5 li a:hover{
     text-decoration: underline;
+    background-color: #617ab8  ;
 }
 
 

@@ -38,6 +38,24 @@ p{
     
     width: 80%;
 }
+/****** block ********/
+
+
+.block{
+ width: auto;
+ height: 30em;
+ display: block;
+ 
+    
+}
+
+iframe{
+   display: inline-block;
+   width: 69%;
+   height: inherit;
+   margin: auto;
+}
+
 
 /******* Titres *******/
 h1 {
@@ -100,6 +118,7 @@ h3{
 #gauche{
     max-width: 80em;
 }
+
 
 .infoImp{
 	
@@ -189,6 +208,31 @@ thead {
     background-color: #333;
     color: #fff;
 }
+
+.list_contact{
+    background-color: white;
+    text-align: center;
+    display: inline;
+    margin-left: auto;
+    width: 29%;
+    float: right;
+    border: 2px solid;
+    font-size: 120%;
+    height: inherit;
+}
+
+.list_contact h4{
+    font-weight: bold;
+    margin: auto;
+    font-size: 150%;
+}
+
+.list_contact li{
+    margin: 10px;
+    text-align: left;  
+    
+}
+
 
 /*******	Flex	*******/
 .flex {
@@ -358,20 +402,20 @@ a.info1{
 
 .info1:hover .infoCache1{
 	display: block; /* On affiche l'infobulle. */
-       position: absolute;
+       position: fixed;
       	text-align: left;
          /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
         
-         width: 1600%;
-        max-width: 50em;
+         
+        width: auto;
 		font-size: 90%;
 		white-space: normal;
        
     
 
-      left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); /* Yep! */
+      top: 6%;
+      left: 0;
+  
       
        background: white;
       
